@@ -1,0 +1,45 @@
+.admin-login-body {
+  background: #667eea;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box {
+  background: white;
+  padding: 30px;
+  width: 360px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.register-text {
+  margin-top: 15px;
+}
+
+.register-text a {
+  color: #4caf50;
+  font-weight: bold;
+  text-decoration: none;
+}

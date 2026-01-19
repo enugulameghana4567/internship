@@ -1,0 +1,109 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* WRAPPER */
+.role-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b2b52;
+}
+
+/* MAIN CONTAINER */
+.role-body {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
+  background: white;
+}
+
+/* LEFT PANEL */
+.left {
+  width: 50%;
+  background: linear-gradient(160deg, #0b2b52, #0f2f5e);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  text-align: center;
+}
+
+.left h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* RIGHT PANEL */
+.right {
+  width: 50%;
+  background: linear-gradient(160deg, #7da7f9, #6b9af8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.right h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0b2b52;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+/* ROLE CARDS */
+.cards {
+  display: flex;
+  gap: 40px;
+}
+
+.card {
+  background: white;
+  width: 220px;
+  padding: 30px 25px;
+  border-radius: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 30px 55px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 110px;
+  margin-bottom: 18px;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0b2b52;
+  margin-top: 5px;
+}
+
+/* FOOTER TAG */
+.footer-tag {
+  position: absolute;
+  bottom: 18px;
+  right: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0b2b52;
+  opacity: 0.75;
+}
